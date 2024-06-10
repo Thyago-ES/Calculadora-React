@@ -1,0 +1,27 @@
+.screen {
+	width: 284px;
+	height: 140px;
+	padding: 10px;
+
+	background: #0f0f0f;
+	border-radius: 16px;
+	color: #f6ecec;
+	font-size: 1.6rem;
+
+	display: flex;
+	justify-content: end;
+
+	position: relative;
+}
+
+.screen .result {
+	position: absolute;
+	bottom: 0;
+	opacity: 0.5;
+}
+
+.screen .account {
+	position: absolute;
+	top: 0;
+	word-break: break-all;
+}
